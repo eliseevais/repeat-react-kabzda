@@ -11,7 +11,7 @@ function App() {
       {/*<Accordion title={"Title 1 for accordion"} collapsed={true}/>*/}
       {/*<Accordion title={"Title 2 for accordion"} collapsed={false}/>*/}
 
-      {/*<UncontrolledAccordion title={"Menu"}/>*/}
+      <UncontrolledAccordion title={"Menu"}/>
       {/*<UncontrolledAccordion title={"Users"}/>*/}
 
       {/*<Rating value={0}/>*/}
