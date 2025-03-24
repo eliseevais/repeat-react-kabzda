@@ -1,42 +1,27 @@
 type AccordionPropsType = {
   title: string
   collapsed: boolean
+  setAccordionCollapsed: (collapsed: boolean) => void
 }
 
-export const Accordion = (props: AccordionPropsType) => {
+export const Accordion = ({title,collapsed,setAccordionCollapsed}: AccordionPropsType) => {
   return (
     <div>
-      <AccordionTitle title={props.title}/>
-      {!props.collapsed && <AccordionBody/>}
+      <AccordionTitle title={title} collapsed={collapsed} setAccordionCollapsed={setAccordionCollapsed}/>
+      {!collapsed && <AccordionBody/>}
     </div>
   )
 }
 
-export const Accordion2 = (props: AccordionPropsType) => {
-  if (props.collapsed) {
-    return (
-      <div>
-        <AccordionTitle title={props.title}/>
-      </div>
-    )
-  }
-  if (!props.collapsed) {
-    return (
-      <div>
-        <AccordionTitle title={props.title}/>
-        <AccordionBody/>
-      </div>
-    )
-  }
-}
-
 type AccordionTitlePropsType = {
   title: string
+  collapsed: boolean
+  setAccordionCollapsed: (collapsed: boolean) => void
 }
 
-const AccordionTitle = (props: AccordionTitlePropsType) => {
+const AccordionTitle = ({title, collapsed, setAccordionCollapsed}: AccordionTitlePropsType) => {
   return (
-    <h3>{props.title}</h3>
+    <h3 onClick={() => setAccordionCollapsed(!collapsed)}>{title}</h3>
   )
 }
 

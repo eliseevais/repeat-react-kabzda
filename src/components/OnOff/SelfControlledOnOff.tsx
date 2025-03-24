@@ -4,29 +4,8 @@ type OnOffPropsType = {
   // status: boolean
 }
 
-// export const OnOff = (props: OnOffPropsType) => {
-//   return (
-//     <div>
-//       {props.status
-//         ? (<>
-//           <button className={s.green}>on</button>
-//           <button >off</button>
-//           <button className={`${s.circle} ${s.green}`}></button>
-//         </>)
-//         : (<>
-//           <button >on</button>
-//           <button className={s.red}>off</button>
-//           <button className={`${s.circle} ${s.red}`}></button>
-//         </>)
-//       }
-//     </div>
-//   )
-// }
-
-export const OnOff = (props: OnOffPropsType) => {
+export const SelfControlledOnOff = (props: OnOffPropsType) => {
   const [status, setStatus] = useState(false)
-
-  // const status = false
 
   const onStyle = {
     width: '30px',
