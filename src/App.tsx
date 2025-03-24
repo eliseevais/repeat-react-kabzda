@@ -3,24 +3,37 @@ import {Rating, RatingValueType} from "./components/Rating/Rating";
 import {useState} from "react";
 import {UncontrolledRating} from "./components/Rating/UncontrolledRating";
 import {Accordion} from "./components/Accordion/Accordion";
-import {SelfControlledOnOff} from "./components/OnOff/SelfControlledOnOff";
+import {UnControlledOnOff} from "./components/OnOff/UnControlledOnOff";
 import {AppControlledOnOff} from "./components/OnOff/AppControlledOnOff";
+import {DimychControlledOnOff} from "./components/OnOff/DimychControlledOnOff";
+import {UncontrolledAccordion} from "./components/Accordion/UncontrolledAccordion";
 
 function App() {
 
   let [ratingValue, setRatingValue] = useState<RatingValueType>(2);
-  let [accordionCollapsed, setAccordionCollapsed] = useState<boolean>(false);
+  let [accordionCollapsed, setAccordionCollapsed] = useState<boolean>(true);
   let [status, setStatus] = useState<boolean>(true);
+  let [statusDimych, setStatusDimych] = useState<boolean>(true);
+  let [switchOn, setSwitchOn] = useState<boolean>(true);
+
+  const onChangeHandler = () => {
+    setAccordionCollapsed(!accordionCollapsed)
+  }
 
   return (
     <div className="App">
-      <Accordion title={"Title 1 for accordion"}
-                 collapsed={accordionCollapsed}
-                 setAccordionCollapsed={setAccordionCollapsed}
-      />
-      {/*<Accordion title={"Title 2 for accordion"} collapsed={false}/>*/}
 
-      {/*<UncontrolledAccordion title={"Menu"}/>*/}
+      {/*<Accordion title={"Title 1 for accordion"}*/}
+      {/*           collapsed={accordionCollapsed}*/}
+      {/*           setAccordionCollapsed={setAccordionCollapsed}*/}
+      {/*/>*/}
+
+      <Accordion title={"Title 2 for accordion"}
+                 collapsed={accordionCollapsed}
+                 onChange={onChangeHandler}
+      />
+
+      <UncontrolledAccordion title={"Menu"}/>
       {/*<UncontrolledAccordion title={"Users"}/>*/}
 
       {/*<Rating value={0}/>*/}
@@ -30,14 +43,20 @@ function App() {
       {/*<Rating value={4}/>*/}
       {/*<Rating value={5}/>*/}
 
-      <UncontrolledRating />
+      <div>
+        <UncontrolledRating/>
+        <Rating value={ratingValue} onClick={setRatingValue}/>
+      </div>
 
-      {/*<SelfControlledOnOff />*/}
-      <SelfControlledOnOff />
-      <AppControlledOnOff status={status} setStatus={setStatus} />
-
-
-      <Rating value={ratingValue} onClick={setRatingValue}/>
+      <div>
+        <UnControlledOnOff onChange={setSwitchOn}/>{switchOn.toString()}
+      </div>
+      <div>
+        <AppControlledOnOff status={status} setStatus={setStatus}/>
+        <DimychControlledOnOff statusDimych={statusDimych} onChange={(statusDimych: boolean) => {
+          setStatusDimych(statusDimych)
+        }}/>
+      </div>
 
     </div>
   );

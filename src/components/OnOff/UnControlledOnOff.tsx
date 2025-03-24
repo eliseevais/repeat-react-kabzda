@@ -1,10 +1,10 @@
 import {useState} from "react";
 
 type OnOffPropsType = {
-  // status: boolean
+  onChange: (switchOn: boolean) => void;
 }
 
-export const SelfControlledOnOff = (props: OnOffPropsType) => {
+export const UnControlledOnOff = ({onChange}: OnOffPropsType) => {
   const [status, setStatus] = useState(false)
 
   const onStyle = {
@@ -38,10 +38,20 @@ export const SelfControlledOnOff = (props: OnOffPropsType) => {
     setStatus(!status)
   }
 
+  const onClickedHandler = () => {
+    setStatus(true)
+    onChange(true)
+  }
+
+  const offClickedHandler = () => {
+    setStatus(false)
+    onChange(false)
+  }
+
   return (
     <div>
-      <div style={onStyle} onClick={onClickHandler}>on</div>
-      <div style={offStyle} onClick={onClickHandler}>off</div>
+      <div style={onStyle} onClick={onClickedHandler}>on</div>
+      <div style={offStyle} onClick={offClickedHandler}>off</div>
       <div style={indicatorStyle} onClick={onClickHandler}></div>
     </div>
   )
