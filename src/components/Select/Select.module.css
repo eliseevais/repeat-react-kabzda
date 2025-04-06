@@ -1,0 +1,17 @@
+.select span.main {
+  border: 1px solid grey;
+  display: inline-block;
+  min-height: 20px;
+  min-width: 70px;
+}
+
+.options {
+  display: none;
+  position: absolute;
+  outline: 2px solid grey;
+  padding: 4px;
+}
+
+.select.active .options {
+  display: block;
+}

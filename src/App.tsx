@@ -7,6 +7,7 @@ import {UnControlledOnOff} from "./components/OnOff/UnControlledOnOff";
 import {AppControlledOnOff} from "./components/OnOff/AppControlledOnOff";
 import {DimychControlledOnOff} from "./components/OnOff/DimychControlledOnOff";
 import {UncontrolledAccordion} from "./components/Accordion/UncontrolledAccordion";
+import {Option, Select} from "./components/Select/Select";
 
 function App() {
 
@@ -16,9 +17,18 @@ function App() {
   let [statusDimych, setStatusDimych] = useState<boolean>(true);
   let [switchOn, setSwitchOn] = useState<boolean>(true);
 
+  const options: Option[] = [
+    {value: "option1", title: "Moscow"},
+    {value: "option2", title: "Kiev"},
+    {value: "option3", title: "Minsk"},
+    {value: "option4", title: "Prague"},
+  ];
+
   const onChangeHandler = () => {
     setAccordionCollapsed(!accordionCollapsed)
   }
+
+  const [selected, setSelected] = useState<string | null>(null);
 
   return (
     <div className="App">
@@ -31,6 +41,8 @@ function App() {
       <Accordion title={"Title 2 for accordion"}
                  collapsed={accordionCollapsed}
                  onChange={onChangeHandler}
+                 items={[]}
+                 onClick={() => setAccordionCollapsed(!accordionCollapsed)}
       />
 
       <UncontrolledAccordion title={"Menu"}/>
@@ -57,6 +69,13 @@ function App() {
           setStatusDimych(statusDimych)
         }}/>
       </div>
+
+      <br/>
+
+      <Select selected={selected}
+              options={options}
+              onChange={setSelected}
+      />
 
     </div>
   );

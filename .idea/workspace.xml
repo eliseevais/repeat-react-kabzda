@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="572ab261-5928-4db3-92fc-48041388ddd1" name="Changes" comment="sprint 01 week 04: callback part 2">
-      <change afterPath="$PROJECT_DIR$/src/stories/input.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="572ab261-5928-4db3-92fc-48041388ddd1" name="Changes" comment="sprint 02 week 01: add array of items to Accordion">
+      <change afterPath="$PROJECT_DIR$/src/components/Select/Select.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Select/Select.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Select/Select.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +44,24 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/study1/react-kabzda/src/components/OnOff&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/study1/react-kabzda/src/components/Select&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;npm.storybook.executor&quot;: &quot;Run&quot;,
     &quot;ts.external.directory.path&quot;: &quot;D:\\study1\\react-kabzda\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study1\react-kabzda\src\components\Select" />
+      <recent name="D:\study1\react-kabzda\src\components\Accordion" />
       <recent name="D:\study1\react-kabzda\src\components\OnOff" />
       <recent name="D:\study1\react-kabzda\src\components\Rating" />
-      <recent name="D:\study1\react-kabzda\src\components\Accordion" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="D:\study1\react-kabzda\src\components\Rating\Rating.tsx" />
@@ -68,7 +70,7 @@
       <recent name="D:\study1\react-kabzda\src\components\OnOff" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -79,8 +81,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.storybook" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -107,7 +120,10 @@
       <workItem from="1742048329343" duration="3020000" />
       <workItem from="1742284677751" duration="6584000" />
       <workItem from="1742804361279" duration="10351000" />
-      <workItem from="1743599902303" duration="2442000" />
+      <workItem from="1743599902303" duration="9585000" />
+      <workItem from="1743616947482" duration="3000" />
+      <workItem from="1743930608297" duration="4094000" />
+      <workItem from="1743935004055" duration="4230000" />
     </task>
     <task id="LOCAL-00001" summary="sprint 01 week 01: add Rating, Accordion, types">
       <option name="closed" value="true" />
@@ -165,7 +181,31 @@
       <option name="project" value="LOCAL" />
       <updated>1742815919486</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="sprint 02 week 04: stories  uncontrolled input">
+      <option name="closed" value="true" />
+      <created>1743602998749</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743602998749</updated>
+    </task>
+    <task id="LOCAL-00009" summary="sprint 02 week 01: stories controlled input, checkbox, select">
+      <option name="closed" value="true" />
+      <created>1743607041767</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743607041767</updated>
+    </task>
+    <task id="LOCAL-00010" summary="sprint 02 week 01: add array of items to Accordion">
+      <option name="closed" value="true" />
+      <created>1743610062109</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743610062109</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +219,9 @@
     <MESSAGE value="sprint 01 week 03: refactor and details for homework" />
     <MESSAGE value="sprint 01 week 04: callback, controlled and uncontrolled components, homework" />
     <MESSAGE value="sprint 01 week 04: callback part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="sprint 01 week 04: callback part 2" />
+    <MESSAGE value="sprint 02 week 04: stories  uncontrolled input" />
+    <MESSAGE value="sprint 02 week 01: stories controlled input, checkbox, select" />
+    <MESSAGE value="sprint 02 week 01: add array of items to Accordion" />
+    <option name="LAST_COMMIT_MESSAGE" value="sprint 02 week 01: add array of items to Accordion" />
   </component>
 </project>
