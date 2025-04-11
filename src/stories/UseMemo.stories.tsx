@@ -84,3 +84,50 @@ export const HelpsToReactMemo = () => {
     </div>
   )
 }
+
+type BooksProps = {
+  books: string[]
+  addBook: () => void
+}
+
+const BooksSecret = (props: BooksProps) => {
+  console.log("Books secret");
+  return (
+    <div>
+      {props.books.map((book: string, i) => {
+        return <div key={i}>{book}</div>
+      })}
+    </div>
+  )
+}
+
+const Books = React.memo(BooksSecret)
+
+export const LikeUseCallback = () => {
+  console.log("LikeUseCallback");
+
+  const [counter, setCounter] = useState(0);
+  const [books, setBooks] = useState(["React", "JS", "CSS", "HTML"]);
+
+  const newArr = useMemo(() => {
+    return books.filter((book) => book.toLowerCase().indexOf("a") > -1)
+  }, [books]);
+
+  const addBook = () => {
+    let newBook = "Angular " + new Date().getTime()
+    setBooks(prevState => [...prevState, newBook]);
+  }
+
+  const memoizedAddBook = useMemo(() => {
+    return addBook
+  }, [books]);
+
+  return (
+    <div>
+      <button onClick={() => setCounter(counter + 1)}>+</button>
+      <div>{counter}</div>
+      <button onClick={addBook}>add book</button>
+      <Books books={newArr} addBook={memoizedAddBook}/>
+    </div>
+  )
+}
