@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="572ab261-5928-4db3-92fc-48041388ddd1" name="Changes" comment="sprint 02 week 02: custom select">
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/Reducer.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/Reducer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Rating/Rating.stories.tsx" afterDir="false" />
+    <list default="true" id="572ab261-5928-4db3-92fc-48041388ddd1" name="Changes" comment="sprint 02 week 04: useCallback">
+      <change afterPath="$PROJECT_DIR$/src/stories/useState.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/UncontrolledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/UncontrolledAccordion.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,26 +36,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/study1/react-kabzda/src/components/Accordion",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.start.executor": "Run",
-    "npm.storybook.executor": "Run",
-    "npm.test.executor": "Run",
-    "ts.external.directory.path": "D:\\study1\\react-kabzda\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/study1/react-kabzda/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;npm.storybook.executor&quot;: &quot;Run&quot;,
+    &quot;npm.test.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\study1\\react-kabzda\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study1\react-kabzda\src" />
       <recent name="D:\study1\react-kabzda\src\components\Accordion" />
       <recent name="D:\study1\react-kabzda\src\components\Rating" />
       <recent name="D:\study1\react-kabzda\src\components\Select" />
@@ -106,8 +103,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test" />
         <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -139,6 +136,7 @@
       <workItem from="1743930608297" duration="4094000" />
       <workItem from="1743935004055" duration="4266000" />
       <workItem from="1744016351174" duration="4758000" />
+      <workItem from="1744480060794" duration="1678000" />
     </task>
     <task id="LOCAL-00001" summary="sprint 01 week 01: add Rating, Accordion, types">
       <option name="closed" value="true" />
@@ -228,7 +226,31 @@
       <option name="project" value="LOCAL" />
       <updated>1743939849884</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="sprint 02 week 04: react memo">
+      <option name="closed" value="true" />
+      <created>1744368178365</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744368178365</updated>
+    </task>
+    <task id="LOCAL-00013" summary="sprint 02 week 04: useMemo">
+      <option name="closed" value="true" />
+      <created>1744372864343</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744372864343</updated>
+    </task>
+    <task id="LOCAL-00014" summary="sprint 02 week 04: useCallback">
+      <option name="closed" value="true" />
+      <created>1744377814284</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1744377814284</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +268,9 @@
     <MESSAGE value="sprint 02 week 01: stories controlled input, checkbox, select" />
     <MESSAGE value="sprint 02 week 01: add array of items to Accordion" />
     <MESSAGE value="sprint 02 week 02: custom select" />
-    <option name="LAST_COMMIT_MESSAGE" value="sprint 02 week 02: custom select" />
+    <MESSAGE value="sprint 02 week 04: react memo" />
+    <MESSAGE value="sprint 02 week 04: useMemo" />
+    <MESSAGE value="sprint 02 week 04: useCallback" />
+    <option name="LAST_COMMIT_MESSAGE" value="sprint 02 week 04: useCallback" />
   </component>
 </project>
