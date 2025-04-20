@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="572ab261-5928-4db3-92fc-48041388ddd1" name="Changes" comment="sprint 02 week 04: useCallback">
-      <change afterPath="$PROJECT_DIR$/src/stories/useState.stories.tsx" afterDir="false" />
+    <list default="true" id="572ab261-5928-4db3-92fc-48041388ddd1" name="Changes" comment="sprint 03 week 01: difficult useState">
+      <change afterPath="$PROJECT_DIR$/src/stories/useEffect.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,15 +104,15 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.storybook" />
-        <item itemvalue="npm.test" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-WS-251.23774.424" />
       </set>
     </attachedChunks>
   </component>
@@ -136,7 +136,8 @@
       <workItem from="1743930608297" duration="4094000" />
       <workItem from="1743935004055" duration="4266000" />
       <workItem from="1744016351174" duration="4758000" />
-      <workItem from="1744480060794" duration="1678000" />
+      <workItem from="1744480060794" duration="2298000" />
+      <workItem from="1745143009392" duration="2953000" />
     </task>
     <task id="LOCAL-00001" summary="sprint 01 week 01: add Rating, Accordion, types">
       <option name="closed" value="true" />
@@ -250,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744377814284</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="sprint 03 week 01: difficult useState">
+      <option name="closed" value="true" />
+      <created>1744482069629</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744482069629</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +280,7 @@
     <MESSAGE value="sprint 02 week 04: react memo" />
     <MESSAGE value="sprint 02 week 04: useMemo" />
     <MESSAGE value="sprint 02 week 04: useCallback" />
-    <option name="LAST_COMMIT_MESSAGE" value="sprint 02 week 04: useCallback" />
+    <MESSAGE value="sprint 03 week 01: difficult useState" />
+    <option name="LAST_COMMIT_MESSAGE" value="sprint 03 week 01: difficult useState" />
   </component>
 </project>
