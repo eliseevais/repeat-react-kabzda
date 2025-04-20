@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="572ab261-5928-4db3-92fc-48041388ddd1" name="Changes" comment="sprint 03 week 02: useEffect base">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/useEffect.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/useEffect.stories.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="572ab261-5928-4db3-92fc-48041388ddd1" name="Changes" comment="sprint 03 week 02: useEffect setTimeout setInterval" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +134,7 @@
       <workItem from="1743935004055" duration="4266000" />
       <workItem from="1744016351174" duration="4758000" />
       <workItem from="1744480060794" duration="2298000" />
-      <workItem from="1745143009392" duration="5938000" />
+      <workItem from="1745143009392" duration="6289000" />
     </task>
     <task id="LOCAL-00001" summary="sprint 01 week 01: add Rating, Accordion, types">
       <option name="closed" value="true" />
@@ -267,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745148762688</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="sprint 03 week 02: useEffect setTimeout setInterval">
+      <option name="closed" value="true" />
+      <created>1745152702643</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1745152702643</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +295,7 @@
     <MESSAGE value="sprint 02 week 04: useCallback" />
     <MESSAGE value="sprint 03 week 01: difficult useState" />
     <MESSAGE value="sprint 03 week 02: useEffect base" />
-    <option name="LAST_COMMIT_MESSAGE" value="sprint 03 week 02: useEffect base" />
+    <MESSAGE value="sprint 03 week 02: useEffect setTimeout setInterval" />
+    <option name="LAST_COMMIT_MESSAGE" value="sprint 03 week 02: useEffect setTimeout setInterval" />
   </component>
 </project>

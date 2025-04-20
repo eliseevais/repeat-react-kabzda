@@ -88,10 +88,12 @@ export const ClockExample = () => {
   console.log("sec: ", sec)
 
   useEffect(() => {
-    setInterval(() => {
+    let intervalId = setInterval(() => {
       console.log("setInterval function");
       setSec(prev => prev + 1);
     }, 1000);
+
+    clearInterval(intervalId);
   }, []);
 
   return (
