@@ -93,7 +93,9 @@ export const ClockExample = () => {
       setSec(prev => prev + 1);
     }, 1000);
 
-    clearInterval(intervalId);
+    return () => {
+      clearInterval(intervalId);
+    }
   }, []);
 
   return (
