@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="572ab261-5928-4db3-92fc-48041388ddd1" name="Changes" comment="sprint 03 week 02: add clearInterval">
-      <change afterPath="$PROJECT_DIR$/src/components/Clock/Clock.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Clock/Clock.tsx" afterDir="false" />
+    <list default="true" id="572ab261-5928-4db3-92fc-48041388ddd1" name="Changes" comment="sprint 03 week 03: clock from Dimych, useEffect, clearInterval">
+      <change afterPath="$PROJECT_DIR$/src/components/Clock/AnalogClockView.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Clock/AnalogClockView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Clock/DigitalClockView.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/useEffect.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/useEffect.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Clock/Clock.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clock/Clock.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Clock/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clock/Clock.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +67,8 @@
       <recent name="D:\study1\react-kabzda\src\components\OnOff" />
     </key>
     <key name="es6.move.members.recent.items">
+      <recent name="D:\study1\react-kabzda\src\components\Clock\AnalogClockView.tsx" />
+      <recent name="D:\study1\react-kabzda\src\components\Clock\DigitalClockView.tsx" />
       <recent name="D:\study1\react-kabzda\src\components\Accordion\Reducer.tsx" />
       <recent name="D:\study1\react-kabzda\src\components\Rating\Rating.tsx" />
     </key>
@@ -141,7 +145,8 @@
       <workItem from="1744480060794" duration="2298000" />
       <workItem from="1745143009392" duration="7005000" />
       <workItem from="1745350107402" duration="231000" />
-      <workItem from="1745402874069" duration="1777000" />
+      <workItem from="1745402874069" duration="1997000" />
+      <workItem from="1746437102045" duration="5228000" />
     </task>
     <task id="LOCAL-00001" summary="sprint 01 week 01: add Rating, Accordion, types">
       <option name="closed" value="true" />
@@ -287,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745152845010</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="sprint 03 week 03: clock from Dimych, useEffect, clearInterval">
+      <option name="closed" value="true" />
+      <created>1745404727534</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1745404727534</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +325,7 @@
     <MESSAGE value="sprint 03 week 02: useEffect base" />
     <MESSAGE value="sprint 03 week 02: useEffect setTimeout setInterval" />
     <MESSAGE value="sprint 03 week 02: add clearInterval" />
-    <option name="LAST_COMMIT_MESSAGE" value="sprint 03 week 02: add clearInterval" />
+    <MESSAGE value="sprint 03 week 03: clock from Dimych, useEffect, clearInterval" />
+    <option name="LAST_COMMIT_MESSAGE" value="sprint 03 week 03: clock from Dimych, useEffect, clearInterval" />
   </component>
 </project>
