@@ -1,5 +1,4 @@
 import {useEffect, useState} from "react";
-import {log} from "node:util";
 
 export default {
   title: "useEffect demo"
@@ -102,5 +101,51 @@ export const ClockExample = () => {
     <div>
       <div>{hours} : {minutes} : {sec}</div>
     </div>
+  )
+}
+
+export const ResetEffectExample = () => {
+  const [counter, setCounter] = useState<number>(1)
+  console.log("Component rendered");
+
+  useEffect(() => {
+    console.log("Effect occurred: " + counter)
+    return () => {
+      console.log("Effect died: " + counter)
+    }
+  }, [counter]);
+
+  const onIncrease = () => {
+    setCounter(counter + 1)
+  }
+
+  return (
+    <div>
+      <div>
+        Hello, counter: {counter}
+      </div>
+      <button onClick={onIncrease}>+</button>
+    </div>
+  )
+}
+
+export const KeysTrackerExample = () => {
+  const [text, setText] = useState('')
+  console.log("Component rendered: " + text);
+
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      console.log("keypress: " + e.key);
+      setText(prev => prev + e.key)
+    }
+
+    window.document.addEventListener("keypress", handler)
+    return () => {
+      window.document.removeEventListener("keypress", handler)
+    }
+  }, [text])
+
+  return (
+    <div>Hello, text: {text}</div>
   )
 }

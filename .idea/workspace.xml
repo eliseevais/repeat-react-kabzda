@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="572ab261-5928-4db3-92fc-48041388ddd1" name="Changes" comment="sprint 03 week 03: clock from Dimych, useEffect, clearInterval">
-      <change afterPath="$PROJECT_DIR$/src/components/Clock/AnalogClockView.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Clock/AnalogClockView.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Clock/DigitalClockView.tsx" afterDir="false" />
+    <list default="true" id="572ab261-5928-4db3-92fc-48041388ddd1" name="Changes" comment="sprint 03 week 04: analog and digital clocks ready">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Clock/Clock.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clock/Clock.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Clock/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clock/Clock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/useEffect.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/useEffect.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +142,7 @@
       <workItem from="1745143009392" duration="7005000" />
       <workItem from="1745350107402" duration="231000" />
       <workItem from="1745402874069" duration="1997000" />
-      <workItem from="1746437102045" duration="5228000" />
+      <workItem from="1746437102045" duration="8335000" />
     </task>
     <task id="LOCAL-00001" summary="sprint 01 week 01: add Rating, Accordion, types">
       <option name="closed" value="true" />
@@ -300,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745404727534</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="sprint 03 week 04: analog and digital clocks ready">
+      <option name="closed" value="true" />
+      <created>1746443937076</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1746443937076</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +330,7 @@
     <MESSAGE value="sprint 03 week 02: useEffect setTimeout setInterval" />
     <MESSAGE value="sprint 03 week 02: add clearInterval" />
     <MESSAGE value="sprint 03 week 03: clock from Dimych, useEffect, clearInterval" />
-    <option name="LAST_COMMIT_MESSAGE" value="sprint 03 week 03: clock from Dimych, useEffect, clearInterval" />
+    <MESSAGE value="sprint 03 week 04: analog and digital clocks ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="sprint 03 week 04: analog and digital clocks ready" />
   </component>
 </project>
